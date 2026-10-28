@@ -14,6 +14,7 @@ startup: application
 boot: auto
 init: false
 timeout: 30
+host_ipc: true
 ports:
   5901/tcp: 5901
   5902/tcp: 5902
